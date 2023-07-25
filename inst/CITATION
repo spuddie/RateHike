@@ -1,0 +1,27 @@
+citHeader("There are multiple ways to cite RateHike in publications.
+You can either cite the master's thesis (preferred), or you can cite
+the code repository on GitHub. Once the package is on CRAN that will
+provide a third option.")
+
+bibentry("mastersthesis",
+  author = "Steff Helsen",
+  school = "Katholieke Universiteit Leuven",
+  title = "Multi-Curve Bootstrapping of Interest Rate Curves",
+  year = "2023",
+  header = "the master's thesis:",
+  textVersion = paste("Helsen, Steff (2023).",
+                      "Multi-Curve Bootstrapping of Interest Rate Curves.",
+                      "Master's thesis,",
+                      "Katholieke Universiteit Leuven.")
+)
+
+bibentry("misc",
+  author = "Steff Helsen",
+  title = "{RateHike}",
+  year = "2023",
+  url = "https://github.com/spuddie/RateHike",
+  header = "the code repository:",
+  textVersion = paste("Helsen, Steff (2023).",
+                      "RateHike.",
+                      "https://github.com/spuddie/RateHike")
+)

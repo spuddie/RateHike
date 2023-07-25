@@ -1,0 +1,8 @@
+^RateHike\.Rproj$
+^\.Rproj\.user$
+^\.github
+\.md$
+!^README\.md$
+^doc$
+^Meta$
+^LICENSE\.md$

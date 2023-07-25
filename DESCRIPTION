@@ -1,0 +1,27 @@
+Package: RateHike
+Version: 1.0.1
+RoxygenNote: 7.2.3
+Encoding: UTF-8
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Title: Ramp Up the Quality of Your Interest Rate Curves
+Authors@R: person("Steff", "Helsen", 
+                  email = "RateHike@prophylaxis.be",
+                  role = c("cre", "aut"))
+Description: RateHike is a package designed to bootstrap interest rate
+  curves in a multi-curve framework, in 
+  particular IBOR curves and OIS curves. It was created as part of a
+  master's thesis project, check out the vignette for more details. This
+  thesis contains all the details on the implementation. 
+URL: https://github.com/spuddie/RateHike
+BugReports: https://github.com/spuddie/RateHike/issues
+Suggests: 
+    devtools,
+    knitr,
+    rmarkdown,
+    roxygen2,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+License: MIT + file LICENSE
